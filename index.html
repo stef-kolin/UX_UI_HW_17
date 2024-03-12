@@ -5,74 +5,76 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
         rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <style>
-        h2 {
-            color: white;
-        }
+        h2 { color: white; }
 
-        p {
-            color: white;
-        }
+        p {   color: white; }
 
-        ul {
-            color: white
-        }
+       
     </style>
 </head>
 
-
-
 <body class="body">
-    <header class="navigation">
 
-        <div class="inline-block logo">
+<!--HEADER BAR html START-->
+<header class="navigation">
+
+                <!--LEFT SIDE OF HEADER BAR-->
+<div class="navleft">
             <img src="images\sk-brand-logo.png" alt="Brand Logo for Stef Kolin Website" width="125" height="50">
         </div>
 
-
-        <!--DROP DOWN BUTTON CODE START-->
-<div class="button+jobtitle">
+                <!--MIDDLE SECTION OF HEADER BAR-->
+                    <!--drop down btn code start-->
+<div class="navmiddle">
         <div class="dropdown">
-            <button class="dropdownbtn">Stef Kolin</button>
+            <button class="dropdownbtn">About Me</button>
             <div class="dropdown-content">
-                <a href="#">about</a>
-                <a href="#">skills</a>
-                <a href="#">work</a>
-                <a href="#">contact</a>
+                <a href="#">Work</a>
+                <a href="#">Skills</a>
+                <a href="#">Resume</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
             </div>
         </div>
-        <!--DROP DOWN BUTTON CODE END-->
+                     <!--drop down btn code end-->
         <h2 id="JobTitle"> /Jr UX Designer </h2>
 </div>
 
-<div> 
-    <img src="images/Profile-Icon.png" alt="Basic Profile Icon.  Click to Open." width="56" height="52">
+            <!--RIGHT SIDE OF HEADER BAR-->               
+<div class="navright"> 
+    <div>
+    <img src="images/Profile-Icon.png" alt="Basic Profile Icon.  Click to Open." width="56" height="52" class="profileicon">
+    </div>
     <button class="ConnectBtn">Connect</button>
 </div>
     
 </header>  
-<hr>
+<hr class="navdivider">
+<!--HEADER BAR html END START-->
 
-
-
-
-
-    <section class="heroimg">
+<!--ABOUT ME html START-->
+<section class="AboutMeSection">
         <div class="content">
             <img src="images\website-photo2.jpg" alt="Profile Pic of Stef Kolin" width="200" height="270"
-                style="vertical-align: middle" class="profilepic">
-           
-                <div class="v1"></div>
+                style="vertical-align: middle">
+        </div>
+        
+        <div class="vertical-line"></div>
 
-                <p class="profilepictext">
-                    <p>
+        <div class="aboutmedescription">
+
+            <p>
                 Stef Kolin is based in Chicago, IL.
             </p>
             <p>
                 She specializes in user experience research and user centered design. She is energized by smart
                 technology with its limitless potential to upgrade day-to-day activities for people.
-<p>
+            <p>
                 Her fascination for the design of smart technology applications combined with her years of experience in
                 merchandising strategy led her to pivot into the forward-thinking field of UX design.
             </p>
@@ -85,11 +87,11 @@
                 for conceptual projects exclusively through the Northwestern UX/UI Bootcamp.
             </p>
             </p>
-            </p>
-            <button> Download Resume</button>
-
+            
+            <button class="resumebtn"> Download Resume</button>
         </div>
-    </section>
+
+</section>
 
 
 </body>
