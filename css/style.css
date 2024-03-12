@@ -1,0 +1,91 @@
+
+.body {
+    font-family: "bodoni moda", sans-serif;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+
+}
+.nav {
+    width: 73%;
+    padding: 1%;
+}
+#ul {
+    width: 50%;
+    margin-left: auto;
+}
+.logo {
+    text-align: left;
+}
+.body {
+    background-color: #212121;
+    
+}
+
+#JobTitle {
+    text-align: center;
+    display: inline-block;
+}
+
+.dropdownbtn {
+  background-color: #212121;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+   }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #212121;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: 212121;}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+v1 {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
